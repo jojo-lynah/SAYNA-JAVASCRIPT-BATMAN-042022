@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-image: url(/Assets/Illustrations/Home/Bathome1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1120px;
+}
+.part-1 {
+    padding-top: 300px;
+    padding-bottom: 150px;
+}
+.slide{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh ;
+    animation-name: move;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    width: 100%;
+}
+ @keyframes move{
+    10% {
+        background-image: url(/Assets/Illustrations/Home/Batslider2.png);
+    }
+    20% {
+        background-image: url(/Assets/Illustrations/Home/Batslider3.png);
+    }
+    30% {
+        background-image: url(/Assets/Illustrations/Home/Batslider4.png);
+    }
+    40% {
+        background-image: url(/Assets/Illustrations/Home/Batslider5.png);
+    }
+    50% {
+        background-image: url(/Assets/Illustrations/Home/Batslider6.png);
+    }
+    60% {
+        background-image: url(/Assets/Illustrations/Home/Batslider7.png);
+    }
+    70% {
+        background-image: url(/Assets/Illustrations/Home/Batslider8.png);
+    }
+    80% {
+        background-image: url(/Assets/Illustrations/Home/Batslider9.png);
+    }
+    90% {
+        background-image: url(/Assets/Illustrations/Home/Batslider10.png);
+    }
+}
+.part-4{
+    background-color: #000000;
+}
+.font{
+    position: absolute;
+    left: 50px;
+    top: 5px;
+}
+.col a{
+    margin-left: 1100px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.ma{
+color: #FFFFFF;
+margin-top: 400px;
+margin-left: 300px;
+}
+.col1{
+  flex-direction: column;
+    margin-left: 800px;
+}
+.bckrnd{
+   background-color: #000000;
+   color: #FFFFFF;
+   padding-left: 100px;
+}
+.toute h1 {
+    margin-left: 600px;
+    padding-top: 20px;
+}
+.toute h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.san{
+    background-color: black;
+    color: #FFFFFF;
+    justify-content: center;
+}
+.you{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+.are{
+    text-align: center;
+}
+.are img{
+    margin: 20px;
+    text-align: center;
+}
+.reponse{
+    padding: 10px;
+    background-color: #c4c4c4;
+    margin: 5px;
+    width: 400px;
+}
+.hote h2{
+   margin-left: 300px;
+   margin-top: 50px;
+}
+.hote img{
+    margin-left: 200px;
+}
+.san button{
+    margin-top: 50px;
+    margin-left: 600px;
+    color: #000000;
+}
